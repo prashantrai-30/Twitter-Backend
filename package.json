@@ -1,0 +1,20 @@
+{
+  "name": "tweeter-backend",
+  "version": "1.0.0",
+  "description": "A tweeter clone.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "npx nodemon src/index.js"
+  },
+  "author": "PKR",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.1",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1"
+  }
+}
